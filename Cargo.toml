@@ -1,7 +1,9 @@
 [package]
 name = "kimchi-example"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 
 [dependencies]
-proof-systems = { git = "git@github.com:o1-labs/proof-systems.git" }
+kimchi-circuits = { git = "https://github.com/o1-labs/proof-systems.git"}
+oracle = { git = "https://github.com/o1-labs/proof-systems.git"}
+mina-curves = { git = "https://github.com/o1-labs/proof-systems.git"}
